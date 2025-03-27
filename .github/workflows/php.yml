@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-  APP_NAME: samplesyncapp
+  APP_NAME: samplesyncapp2
 permissions:
   contents: read
   security-events: write
