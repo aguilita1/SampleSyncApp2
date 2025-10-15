@@ -1,6 +1,6 @@
 # SampleSyncApp [![Continuous Integration](https://github.com/aguilita1/SampleSyncApp2/actions/workflows/php.yml/badge.svg)](https://github.com/aguilita1/SampleSyncApp2/actions/workflows/php.yml) [![PHP Version](https://img.shields.io/badge/PHP-v8.4-blue)](https://www.php.net/ChangeLog-8.php) [![Alpine Linux Version](https://img.shields.io/badge/Alpine_Linux-v3.22-blue)](https://alpinelinux.org/releases/) [![Composer Version](https://img.shields.io/badge/Composer-v2.8-blue)](https://github.com/composer/composer/releases)
-A reference implementation to demonstrate how to use Github Actions with a simple PHP CLI synchronization application.
-* Published Docker Images: [https://hub.docker.com/r/luigui/samplesyncapp](https://hub.docker.com/r/luigui/samplesyncapp)
+A reference implementation to demonstrate how to use Github Actions with a simple PHP CLI synchronization application.  A mirror of [SampleSnycApp](https://github.com/aguilita1/SampleSyncApp) that meant to test Renovate bot integration.
+* Published Docker Images: [https://hub.docker.com/r/luigui/samplesyncapp2](https://hub.docker.com/r/luigui/samplesyncapp2)
 
 ## Docker Official Approved Base Images
 * [PHP](https://github.com/docker-library/official-images/blob/master/library/php)
