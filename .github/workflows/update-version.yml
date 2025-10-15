@@ -44,8 +44,6 @@ jobs:
           tag_name: v${{ github.event.inputs.version }}
           name: v${{ github.event.inputs.version }}
           draft: true
-          body: |
-            Automated release for version `${{ github.event.inputs.version }}`.
-            - Updated `APP_VERSION` in Dockerfile.
+          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
