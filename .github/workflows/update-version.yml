@@ -28,6 +28,7 @@ jobs:
           sed -i 's/^ARG APP_VERSION=".*"/ARG APP_VERSION="${{ github.event.inputs.version }}"/' Dockerfile
 
       - name: Commit change and push
+        continue-on-error: true
         run: |
           git add Dockerfile
           git commit -m "chore: bump APP_VERSION to ${{ github.event.inputs.version }}"
