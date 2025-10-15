@@ -1,4 +1,4 @@
-name: Update APP_VERSION and Tag
+name: Update App Version and Tag
 
 on:
   workflow_dispatch:
