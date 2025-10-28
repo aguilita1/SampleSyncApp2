@@ -41,6 +41,14 @@ jobs:
           git tag v${{ github.event.inputs.version }}
           git push origin v${{ github.event.inputs.version }}
 
+      - name: Verify tags after push
+        run: |
+          git fetch --tags
+          echo "Local tags"
+          git tag -l
+          echo "Remote tags"
+          git ls-remote --tags origin
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
