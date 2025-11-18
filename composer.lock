@@ -2808,16 +2808,16 @@
         },
         {
             "name": "zircote/swagger-php",
-            "version": "5.5.1",
+            "version": "5.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zircote/swagger-php.git",
-                "reference": "a1b6fba7695bed5ba8a0052f615fe828912e3f5a"
+                "reference": "4d0d3086d7c876626167d198cec285e98d3629dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/a1b6fba7695bed5ba8a0052f615fe828912e3f5a",
-                "reference": "a1b6fba7695bed5ba8a0052f615fe828912e3f5a",
+                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/4d0d3086d7c876626167d198cec285e98d3629dc",
+                "reference": "4d0d3086d7c876626167d198cec285e98d3629dc",
                 "shasum": ""
             },
             "require": {
@@ -2828,7 +2828,7 @@
                 "psr/log": "^1.1 || ^2.0 || ^3.0",
                 "symfony/deprecation-contracts": "^2 || ^3",
                 "symfony/finder": "^5.0 || ^6.0 || ^7.0",
-                "symfony/yaml": "^5.0 || ^6.0 || ^7.0"
+                "symfony/yaml": "^5.4 || ^6.0 || ^7.0"
             },
             "conflict": {
                 "symfony/process": ">=6, <6.4.14"
@@ -2890,9 +2890,9 @@
             ],
             "support": {
                 "issues": "https://github.com/zircote/swagger-php/issues",
-                "source": "https://github.com/zircote/swagger-php/tree/5.5.1"
+                "source": "https://github.com/zircote/swagger-php/tree/5.7.3"
             },
-            "time": "2025-10-17T21:07:41+00:00"
+            "time": "2025-11-17T20:56:13+00:00"
         }
     ],
     "aliases": [],
@@ -2907,5 +2907,5 @@
     "platform-overrides": {
         "php": "8.4.1"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
