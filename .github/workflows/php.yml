@@ -40,7 +40,7 @@ jobs:
         path: src/
 
     - name: PHPUnit Tests (v4 SHA referenced below)
-      uses: php-actions/phpunit@0bc1512e6cd260cae4bfe499b7be5893f363552f
+      uses: php-actions/phpunit@178d7fe2f639d9505ef214ab5d47233353a07f08
       with:
         version: 9
         bootstrap: vendor/autoload.php
